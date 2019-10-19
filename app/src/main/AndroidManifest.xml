@@ -9,19 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FragmentActivity">
-
+        <activity android:name=".Fragment_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
 
+        </activity>
+        <activity android:name=".FragmentActivity">
+
+        </activity>
         <activity android:name=".SecondActivity" />
-        <activity android:name=".FirstActivity">
-
-        </activity>
+        <activity android:name=".FirstActivity"></activity>
     </application>
 
 </manifest>
